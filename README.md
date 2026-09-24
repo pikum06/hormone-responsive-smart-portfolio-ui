@@ -114,4 +114,55 @@ Evaluates net yield performance against execution friction and rebalancing frequ
 | processed_bio_signals.csv | Normalized physiological indicators (stress proxies, cortisol scales, HRV). |
 | processed_market_signals.csv | Cleaned macro volatility indicators, spread metrics, and price action data. |
 
+---
+
+Visual Outputs
+
+1. **Cortisol.png**
+
+![Cortisol-Beta Coupling](outcomes/Cortisol.png)
+
+This graph represents the rolling correlation analysis (250-period window) between biological stress signals and portfolio leverage states over a trade sequence. With an average coupling coefficient of only 0.03, the figure proves that biological stress is largely non-correlated with external market volatility. This independence allows the Bio-Stress Index to function as a unique, non-redundant risk indicator that can signal internal emotional volatility even when market signals remain neutral.
+
+2. **Correlation_heatmap.png**
+
+![System Interdependency Matrix](outcomes/correlation_heatmap.png)
+
+The illustrations represents the correlation heatmap provides a cross-variable analysis of the framework’s core metrics: ₿ Rolling Volatility, Leverage Caps, Executed Leverage, and the Bio-Stress Index. The matrix confirms the structural integrity of the system by showing near-zero or slightly negative correlations between biological stress and market volatility (-0.03). These results validate the use of the Bio-Stress Index as a pure metric for internal emotional states, distinct from external market-driven stress.
+
+3. **final_analysis.png**
+
+![Hormone-Responsive Logic](outcomes/final_analysis.png)
+
+As shown in the above graph it shows the top panel of this graph shows the “Biological Circuit Breaker” in action, representing the dynamic modulation of leverage caps over time. The logic engine executes rapid transitions between risk states thus dropping leverage from a high of 10x to a defensive 1x; in direct response to detected high-stress physiological regimes. This automated dampening protects the protocol from emotional decision-making during periods of user panic.
+
+4. **graph_1_avoided_loss.png**
+
+![Bio-Responsive Circuit Breaker Efficiency](outcomes/graph_1_avoided_loss.png)
+
+The above graph illustrates the real-time execution efficiency of the biological circuit breaker during simulated high-volatility events (5% market drops). The 3D scatter plot correlates 30-day rolling market volatility, inverse biometric stress levels (derived from RMSSD), and total avoided loss. The linear clustering demonstrates a flawless deterministic response from the Solana smart contract: as market volatility induces simulated physiological stress, the protocol autonomously forces leverage reductions (e.g., scaling down from 10x to 1x), successfully generating predictable capital preservation proportional to the severity of the stress trigger.
+
+5. **graph_2_experience_decay.png**
+
+![Experience Effect Decay](outcomes/graph_2_experience_decay.png)
+
+This graph shows the algorithmic adjustment of baseline risk tolerance over a trader's lifecycle. By integrating a dynamic decay parameter (λ), the system mathematically weighs the impact of past macroeconomic shocks on the user's current nervous system. The graph contrasts high recency bias (λ = 3.0) against long-term financial memory (λ = 0.5). This model allows the smart contract to construct a deeply personalized, time-weighted risk profile that adjusts the portfolio's maximum allowable leverage based on the specific market traumas a user has lived through.
+
+6. **graph_3_slippage_yield.png**
+
+![Slippage-Adjusted Yield Comparison](outcomes/graph_3_slippage_yield.png)
+
+This graph tracks the cumulative portfolio yield of a standard fixed-leverage strategy (10x) against the Hormone-Responsive model during a period of acute market panic. While the smart contract incurs a constant 0.1% algorithmic slippage penalty every time it dynamically scales down leverage, the graph proves this cost is negligible compared to the catastrophic drawdowns avoided. The standard portfolio is wiped out by the panic event, whereas the Bio-Responsive portfolio successfully detaches from the crash via rapid deleveraging, stabilizing the yield curve and proving the immense financial value of continuous biological risk management.
+
+7. **graph_a_cortisol_beta.png**
+
+![Cortisol-Beta Correlation](outcomes/graph_a_cortisol_beta.png)
+
+Above graph shows scatter plot that illustrates the relationship between a user’s physiological state and their sustainable trading capacity. The regression line, accompanied by a 95% confidence interval, quantifies how higher levels of “Biological Calm” (measured via RMSSD) correlate with the ability to maintain higher portfolio Beta or leverage. The data suggests that as biological stress increases (lower RMSSD), the safe threshold for leverage execution decreases, providing a biological basis for risk-adjustment.
+
+8. **mitigation_loss.png**
+
+![Cumulative Loss Mitigation](outcomes/mitigation_loss.png)
+
+Above graph shows the back-test that compares a Bio-Responsive Portfolio against a standard 10x fixed-leverage strategy during a simulated 12% market shock. While the standard portfolio (red) suffers instant liquidation due to over-exposure, the bio-adjusted model (green) preemptively triggers a 0.1x leverage floor, surviving the crash and successfully compounding wealth over 4,150 periods. This proves the immense financial value of integrating continuous biological feedback into decentralized solvency frameworks.
 
