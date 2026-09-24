@@ -73,19 +73,19 @@ graph TD
 
 - **Interactive Dashboard (`research/dashboard.py`):** 
 
-Centralized command center providing real-time oversight of bio-signal feeds, transaction logs, and risk-adjusted portfolio metrics.
+    - Centralized command center providing real-time oversight of bio-signal feeds, transaction logs, and risk-adjusted portfolio metrics.
 
 - **Avoided Loss Metrics (`research/graph_1.py`):** 
 
-Quantifies equity saved during acute market drawdowns through proactive leverage reduction.
+    - Quantifies equity saved during acute market drawdowns through proactive leverage reduction.
 
 - **Experience & Sensitivity Decay (`research/graph_2.py`):** 
 
-Models dynamic thresholding over repeated stress exposure cycles to prevent premature liquidations.
+    - Models dynamic thresholding over repeated stress exposure cycles to prevent premature liquidations.
 
 - **Slippage-Adjusted Yield Comparison (`research/graph_3.py`):** 
 
-Evaluates net yield performance against execution friction and rebalancing frequency.
+    - Evaluates net yield performance against execution friction and rebalancing frequency.
 
 
 ---
