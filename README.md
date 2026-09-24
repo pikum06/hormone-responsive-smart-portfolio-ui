@@ -1,5 +1,15 @@
 # Hormone-Responsive Smart Portfolio UI & Analytics
 
+---
+
+### Intellectual Property Notice
+
+**Notice:** 
+
+This public repository contains output visualizations, backtest datasets, and dashboard interfaces for evaluation purposes. The underlying Solana smart contract execution layer and biological state-processing algorithms are maintained in a private repository pending intellectual property filings.
+
+---
+
 An interactive visual analytics dashboard and automated evaluation suite for bio-signal-driven portfolio risk management. This repository processes backtest execution logs, market indicators, and physiological stress metrics (e.g., cortisol/HRV proxies) to quantify how automated bio-circuit breakers mitigate drawdowns, control exposure decay, and preserve slippage-adjusted yield during volatile trading regimes.
 
 ---
@@ -29,6 +39,9 @@ An interactive visual analytics dashboard and automated evaluation suite for bio
 │   └── graph_3.py
 └── .gitignore
 ```
+
+---
+
 ## Analytics & System Architecture
 
 The UI and visualization pipeline consumes processed market signals and physiological telemetry to evaluate leverage adjustments, circuit breaker triggers, and net portfolio performance.
@@ -53,6 +66,9 @@ graph TD
     H --> K
     I --> K
 ```
+
+---
+
 ## Key Features & Visualization Modules
 
 - **Interactive Dashboard (`research/dashboard.py`):** 
@@ -71,6 +87,9 @@ Models dynamic thresholding over repeated stress exposure cycles to prevent prem
 
 Evaluates net yield performance against execution friction and rebalancing frequency.
 
+
+---
+
 ## Installation & Usage
 
 1. Prerequisites
@@ -83,6 +102,8 @@ Evaluates net yield performance against execution friction and rebalancing frequ
    - `python research/graph_1.py`
    - `python research/graph_2.py`
    - `python research/graph_3.py`
+
+---
 
 ## Summary of Key Data Files
 
