@@ -166,3 +166,14 @@ Above graph shows scatter plot that illustrates the relationship between a userâ
 
 Above graph shows the back-test that compares a Bio-Responsive Portfolio against a standard 10x fixed-leverage strategy during a simulated 12% market shock. While the standard portfolio (red) suffers instant liquidation due to over-exposure, the bio-adjusted model (green) preemptively triggers a 0.1x leverage floor, surviving the crash and successfully compounding wealth over 4,150 periods. This proves the immense financial value of integrating continuous biological feedback into decentralized solvency frameworks.
 
+9. **panic_nominal.png**
+
+![Nominal State](outcomes/panic_nominal.png)
+
+The Bio-Responsive Portfolio in a nominal physiological condition is shown above. The system maintains excellent capital efficiency, enabling maximum exploitation of the trader's risk appetite, thanks to biometric sensors delivering steady HRV measurements. The model shows that it can extract maximum alpha when the decentralized solvency framework finds a stable operator by permitting dynamic leverage deployment, which maximizes profits during market growth stages without the arbitrary limits of static leverage.
+
+10. **panic_active.png**
+
+![Active State](outcomes/panic_active.png)
+
+The above image illustrates the system immediately following a triggered circuit breaker event. The "Anchor Guard" algorithm overrides both automated expansion signals and manual overrides when it detects a biometric abnormality (physiological discomfort). The system successfully protects the portfolio from volatility by preemptively pivoting it to a 0.1x leverage floor. The shift from high-exposure deployment to protective solvency is captured in this image, emphasizing the platform's function as an automated insurance layer against rash decisions.
